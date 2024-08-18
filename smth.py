@@ -13,8 +13,8 @@ for x in np.nditer(a,op_flags=['readwrite']):
     x[...]= x*x
     print(x)
 
-b = np.arange(3,15,4).reshape(3,1)
-print(b)
+d = np.arange(3,15,4).reshape(3,1)
+print(d)
 
 for x,y in np.nditer([a,b]):
     print(x,y)
